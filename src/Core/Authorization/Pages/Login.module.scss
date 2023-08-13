@@ -1,0 +1,18 @@
+@import "Common/Styles/extends";
+@import "Common/Styles/variables";
+
+.login {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login__form {
+  @extend %v-center;
+}
+
+.login__registration {
+  text-shadow: $text-shadow;
+}
